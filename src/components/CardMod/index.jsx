@@ -19,7 +19,7 @@ const CardMod = ({ item , title }) => {
         hoverable
         style={{
           width: 300,
-          margin: 10
+          // margin: 10
         }}
         cover={<img alt={item.poster_path} src={item.poster_path ? `http://image.tmdb.org/t/p/w500${item.poster_path}` :
           'https://media.istockphoto.com/id/1581323346/id/vektor/foto-segera-hadir-belum-ada-foto-tombol-foto-belum-ada-gambar-vektor.jpg?s=1024x1024&w=is&k=20&c=cmolONm7xM_485AMPqw_peXRQBYB131oO4e0WG7Ssg4='} />}

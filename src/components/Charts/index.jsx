@@ -54,7 +54,7 @@ const TopIdFilmsChart = () => {
     <div>
       <h2>Top 5 Films</h2>
       {
-        Object.keys(chartData).length !== 0 &&  <Bar data={chartData} />
+        Object.keys(chartData).length !== 0 &&  <Bar className='charts' data={chartData} />
       }
      
     </div>

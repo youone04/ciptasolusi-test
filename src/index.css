@@ -301,6 +301,9 @@ body {
 	   clip: rect(67px, 9999px, 122px, 0);
 	}
  }
+ .charts{
+	margin-top: 0;
+}
  
 
 @media screen and (max-width: 800px){
@@ -314,6 +317,9 @@ body {
 	#menu input:checked + label {color:#FFFFFF}
 	#menu input:checked + label:before {content:"\00d7"}
 	#menu input:checked ~ ul {display:block}
+	.charts{
+		margin-top: 120px;
+	}
 }
 
 
