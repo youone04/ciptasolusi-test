@@ -109,9 +109,13 @@
 
 /* Tambahan untuk margin bottom */
 body {
-    padding-top: 85px; /* Sesuaikan padding top untuk memberi ruang bagi menu tetap di atas */
+    /* padding-top: 85px;  */
+	margin: 0;
+	/* Sesuaikan padding top untuk memberi ruang bagi menu tetap di atas */
 }
-
+.content {
+    padding: 100px 20px;
+}
 
 /* animasi expand */
 .description {
@@ -303,6 +307,80 @@ body {
  }
  .charts{
 	margin-top: 0;
+}
+
+
+/* banner */
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+#video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+#video-background iframe {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Transparansi hitam */
+    z-index: 2;
+}
+
+.text {
+    position: relative;
+    z-index: 2;
+}
+
+
+/* menu baner */
+.menu-banner{
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    left: 0;
+    z-index: 2;
+
+}
+.menu-banner nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 5;
+    text-align: left;
+}
+
+.menu-banner nav ul li {
+    display: block;
+    margin: 0 15px 20px;
+}
+
+.menu-banner nav ul li a {
+    color: white;
+    text-decoration: none;
 }
  
 

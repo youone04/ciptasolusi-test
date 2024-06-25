@@ -5,6 +5,7 @@ import './index.css';
 import HomePage from '@/pages/Homepage';
 import ReviewPage from '@/pages/ReviewPage';
 import DashboardAdminpages from '@/pages/DashboardAdminpages';
+import ViewComponent from '@/pages/ViewComponent';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -14,6 +15,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/" element={<HomePage />} />
         <Route path="/review" element={<ReviewPage />} />
         <Route path="/dashboard" element={<DashboardAdminpages />} />
+        <Route path="/view-component" element={<ViewComponent />} />
       </Routes>
     </Router>
   </React.StrictMode>,
