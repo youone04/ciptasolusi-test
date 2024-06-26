@@ -109,7 +109,7 @@
 
 /* Tambahan untuk margin bottom */
 body {
-    /* padding-top: 85px;  */
+    padding-top: 85px; 
 	margin: 0;
 	/* Sesuaikan padding top untuk memberi ruang bagi menu tetap di atas */
 }
